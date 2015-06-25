@@ -1,8 +1,8 @@
 <?php
 
-namespace DesignPattern\FactoryMethod;
+namespace DesignPattern\FactoryMethod\Fibonacci;
 
-class Fibonacci
+class Recursion implements Fibonacci
 {
     public function fib($num)
     {

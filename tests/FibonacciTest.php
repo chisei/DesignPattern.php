@@ -1,8 +1,8 @@
 <?php
 
-use DesignPattern\FactoryMethod\Fibonacci;
+use DesignPattern\FactoryMethod\Fibonacci\Recursion as Fibonacci;
 
-class FibonacciTest extends PHPUnit_Framework_TestCase
+class RecursionTest extends PHPUnit_Framework_TestCase
 {
     /**
      * @test
