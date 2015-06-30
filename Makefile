@@ -1,3 +1,6 @@
+all:
+	composer install
+
 test:
 	vendor/bin/phpunit --bootstrap tests/bootstrap.php tests
 
